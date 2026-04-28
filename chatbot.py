@@ -18,7 +18,7 @@ st.set_page_config(
 )
 
 # Page title
-st.title("🤖 VisionText AI Assistant")
+st.title("🤖 Personal AI Assistant")
 
 st.write(
     "Upload an image, type a question, and let Gemini analyse both text and image."
@@ -35,7 +35,7 @@ client = genai.Client(api_key=GEMINI_API_KEY)
 # Sidebar information
 st.sidebar.header("About this App")
 st.sidebar.write(
-    "This chatbot uses Gemini API to analyse text and images. "
+    "This chatbot analyse text and images. "
     "It is designed for beginner AI students learning multimodal AI."
 )
 
